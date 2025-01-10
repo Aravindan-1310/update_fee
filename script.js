@@ -6,7 +6,7 @@ document.getElementById("updateFeeForm").addEventListener("submit", async functi
     const amount_paid = parseFloat(document.getElementById("amount_paid").value);
 
     // API endpoint (replace with your Azure Function URL)
-    const apiUrl = "https://feeuser.azurewebsites.net/api/update_fee";
+    const apiUrl = "https://feeuser.azurewebsites.net/api/update_fee?";
 
     const responseMessage = document.getElementById("responseMessage");
 
