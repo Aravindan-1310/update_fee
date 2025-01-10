@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Fee</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Update Student Fee</h1>
+        <form id="updateFeeForm">
+            <label for="student_id">Student ID:</label>
+            <input type="text" id="student_id" name="student_id" required />
+
+            <label for="amount_paid">Amount Paid:</label>
+            <input type="number" step="0.01" id="amount_paid" name="amount_paid" required />
+
+            <button type="submit">Update Fee</button>
+        </form>
+        <div class="message" id="responseMessage"></div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
+
