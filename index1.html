@@ -58,7 +58,7 @@
             const amount_paid = document.getElementById("amount_paid").value;
 
             // API endpoint
-            const apiUrl = "https://fee-update.azurewebsites.net/api/update_fee?";
+            const apiUrl = "https://<your-function-app>.azurewebsites.net/api/update_fee";
 
             try {
                 // Make a PUT request to the Azure Function
@@ -92,4 +92,3 @@
     </script>
 </body>
 </html>
-
